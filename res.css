@@ -85,7 +85,7 @@ li:hover{
     font-size: 18px;
     border: 1px solid#118ab2  ;
     background-color: #118ab2;
-    border-radius: 8rem;
+    border-radius: 1rem;
     color: white;
 }
 .ul button:hover{
@@ -165,7 +165,7 @@ h3{
     }
     .mune img{
         display:inline-block;
-        transform: translateX(-200px);
+        transform: translateX(-100px);
         
     }
     .dhex{
