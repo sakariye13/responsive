@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&family=Qwitcher+Grypen&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#faedcd ;
+    width: 100%;
+    margin: auto;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.guud{
+margin-top: 3rem;
+
+}
+.nav{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    
+}
+.fond{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.fond h1{
+ font-size: 40px;
+ text-transform: capitalize;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+}
+.fond h1:hover{
+    scale: 1.3;
+    transition: all 0.9s ease;
+    color: #007217;
+}
+.fond p{
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: capitalize;
+
+}
+.ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.mune img{
+    display: none;
+}
+.uul{
+    display: flex;
+    gap: 100px;
+}
+ ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.home{
+    color: red;
+}
+li{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    transition: all 0.9s ease;
+
+}
+li:hover{
+
+    scale: 1.3;
+    transition: all 0.9s ease;
+    color:#007217 ;
+}
+.ul button{
+    padding: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: 1px solid#118ab2  ;
+    background-color: #118ab2;
+    border-radius: 8rem;
+    color: white;
+}
+.ul button:hover{
+    scale: 1.2;
+    transition: all 0.9s ease;
+    background-color: rgb(127, 244, 100);
+    
+    border: 1px solid white ;
+}
+/* .nav .mune img{
+  padding-right: 40px;
+} */
+
+.dhex{
+    display: flex;
+    gap: 120px;
+    align-items:center;
+}
+.img img{
+    width: 80%;
+    height: 80%;
+}
+.img p{
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.qoral h1{
+    margin-top: 10rem;
+    font-size: 90px;
+}
+.qoral p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.qoral img{
+    width: 50%;
+}
+.qoral article{
+    font-size: 20px;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+video{
+    margin-top: 2rem;
+    width: 500px;
+    height: 300px;
+    border-radius: 1rem;
+    border: 4px solid black;
+}
+
+marquee{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Qwitcher Grypen', cu
+}
+.footer{
+    background-color:#073b4c ;
+    padding: 50px;
+}
+.foter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width:768px) {
+
+
+    .container{
+        flex-direction: column;
+    }
+    .uul{
+        display: none;
+    }
+    .mune img{
+        display:inline-block;
+        transform: translateX(-200px);
+        
+    }
+    .dhex{
+        flex-direction: column;
+    }
+    .qoral{
+        width: 100%;
+        margin-left: 100px;
+    }
+    .qoral p{
+        width: 100%;
+        font-weight: 400;
+        font-size: 23px;
+    }
+    .img img{
+        width: 100%;
+        margin-left: 100px;
+    }
+    .img p{
+        width: 100%;
+        margin-left: 100px;
+    }
+    video{
+        width: 100%;
+        margin-left: 100px;
+    }
+    marquee{
+        width: 100%;
+        margin-left: 100px;
+    }
+    .footer{
+        width: 100%;
+        
+        margin-left:100px;
+    }
+    
+}
